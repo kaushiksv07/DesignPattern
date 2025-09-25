@@ -1,8 +1,10 @@
 package stratergy;
 
-import models.Board;
-import models.Move;
+import model.Board;
+import model.Game;
+import model.Move;
+import model.enums.GameStatus;
 
 public interface WinningStratergy {
-    boolean checkWinningStratergy(Board board, Move move);
+    GameStatus getGameStatus(Board board, Move move);
 }
