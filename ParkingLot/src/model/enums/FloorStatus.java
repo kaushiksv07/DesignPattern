@@ -1,7 +1,7 @@
 package model.enums;
 
-public enum SoltStatus {
-    AVAILABLE,
+public enum FloorStatus {
     FILLED,
+    EMPTY,
     RENOVATION
 }

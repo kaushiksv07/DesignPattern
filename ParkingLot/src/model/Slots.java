@@ -2,12 +2,12 @@ package model;
 
 import lombok.Getter;
 import lombok.Setter;
-import model.enums.SoltStatus;
+import model.enums.SlotStatus;
 
 @Setter
 @Getter
 public class Slots extends  BaseModel {
     private String slotNumber;
-    private SoltStatus slotStatus;
+    private SlotStatus slotStatus;
 
 }
